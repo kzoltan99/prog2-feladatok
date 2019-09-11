@@ -1,3 +1,6 @@
+private double nextNextGaussian;
+private boolean haveNextNextGaussian = false;
+
 synchronized public double nextGaussian() {
         // See Knuth, ACP, Section 3.4.1 Algorithm C.
         if (haveNextNextGaussian) {
