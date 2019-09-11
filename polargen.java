@@ -1,3 +1,5 @@
+public class Polargen {
+
 private double nextNextGaussian;
 private boolean haveNextNextGaussian = false;
 
@@ -19,3 +21,4 @@ synchronized public double nextGaussian() {
             return v1 * multiplier;
         }
     }
+}
